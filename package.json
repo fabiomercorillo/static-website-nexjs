@@ -1,0 +1,33 @@
+{
+  "name": "example_1_nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.3.6",
+    "next": "12.1.4",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-redux": "^7.2.8",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1",
+    "rxjs": "^7.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.23",
+    "@types/react": "18.0.1",
+    "@types/react-dom": "18.0.0",
+    "@types/react-redux": "^7.1.24",
+    "@types/redux": "^3.6.0",
+    "@types/redux-thunk": "^2.1.0",
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.4",
+    "prettier": "2.6.2",
+    "typescript": "4.6.3"
+  }
+}
